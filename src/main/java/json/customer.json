@@ -1,0 +1,14 @@
+{
+  "name": "placGrunwaldszki",
+  "city": "Wrocław",
+  "points": [
+    {
+      "x": "12",
+      "y": "12"
+    },
+    {
+      "x": "44",
+      "y": "26"
+    }
+  ]
+}

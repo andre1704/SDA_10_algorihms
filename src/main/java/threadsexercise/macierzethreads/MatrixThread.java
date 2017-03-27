@@ -13,8 +13,8 @@ public class MatrixThread extends Thread {
         int[][] arrayA = new int[10][10];
         int[][] arrayB = new int[10][10];
         Random random = new Random();
-        fillArray(arrayA, random, 2);
-        fillArray(arrayB, random, 3);
+        fillArray(arrayA, random, 6);
+        fillArray(arrayB, random, 7);
 
         int[][] result = new int[arrayB.length][arrayA[0].length];
         matrixThreads = new MaThread[4];

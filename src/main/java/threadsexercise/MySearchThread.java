@@ -23,6 +23,9 @@ public class MySearchThread extends Thread {
         for (int i = 0; i < threadNumber; i++) {
             startInd=i*pom;
             endInd=(i+1)*pom-1;
+            if(i==threadNumber-1){
+                endInd=array.length-1;
+            }
             myThreads[i] = new MyThread(startInd, endInd, array);
             myThreads[i].start();
         }
